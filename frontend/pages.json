@@ -1,0 +1,63 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText": "鸟情调研系统",
+				"enablePullDownRefresh": true
+				
+			}
+		},
+		{
+			"path": "pages/tabbar/log/log",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/addtask/addtask/addtask",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/addtask/addlog/addlog",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#4C9EFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"selectedColor": "#4C9EFF",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"iconPath" : "/static/tarbbar/home.png",
+				"selectedIconPath": "/static/tarbbar/home-.png",
+				"pagePath": "pages/tabbar/index/index",
+				"text": "首页"
+				
+			},
+			{
+				"iconPath" : "/static/tarbbar/record.png",
+				"selectedIconPath": "/static/tarbbar/record-.png",
+				"pagePath": "pages/tabbar/log/log",
+				"text": "调研记录"
+
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Dependencies
+vendor/
+node_modules/
+uni_modules/
+
+# Build and runtime output
+runtime/
+unpackage/
+dist/
+.playwright-cli/
+*.log
+
+# IDE and OS files
+.idea/
+.vscode/
+*.suo
+Thumbs.db
+.DS_Store

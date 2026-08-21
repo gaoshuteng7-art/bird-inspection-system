@@ -1,0 +1,11 @@
+allowBuilds:
+  '@parcel/watcher': false
+  es5-ext: true
+  esbuild: false
+  v-code-diff: true
+  vue-demi: false
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+  - v-code-diff
+  - vue-demi
